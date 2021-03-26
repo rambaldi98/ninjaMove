@@ -64,7 +64,7 @@ function Ninja() {
             ctx.drawImage(image,xPosition,yPosition);
 
         };
-        image.src = `/src/ninjaGame/img/ninja_${this.image}`;
+        image.src = `./img/ninja_${this.image}`;
     };
 }
 
